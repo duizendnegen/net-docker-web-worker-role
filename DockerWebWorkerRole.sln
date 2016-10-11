@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebRole", "WebRole\WebRole.xproj", "{8866C8B2-C92B-4CDA-B1B0-3590882DEF73}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WorkerRole", "WorkerRole\WorkerRole.xproj", "{8C8A9176-0DD2-4AE5-9FD7-DE2416AF50E2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Jobs", "Jobs\Jobs.xproj", "{149FB2F0-E14B-4561-B88A-A2F590A63AA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8866C8B2-C92B-4CDA-B1B0-3590882DEF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8866C8B2-C92B-4CDA-B1B0-3590882DEF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8866C8B2-C92B-4CDA-B1B0-3590882DEF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8A9176-0DD2-4AE5-9FD7-DE2416AF50E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8A9176-0DD2-4AE5-9FD7-DE2416AF50E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8A9176-0DD2-4AE5-9FD7-DE2416AF50E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8A9176-0DD2-4AE5-9FD7-DE2416AF50E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149FB2F0-E14B-4561-B88A-A2F590A63AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149FB2F0-E14B-4561-B88A-A2F590A63AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149FB2F0-E14B-4561-B88A-A2F590A63AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149FB2F0-E14B-4561-B88A-A2F590A63AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

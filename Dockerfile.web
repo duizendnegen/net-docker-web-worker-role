@@ -1,0 +1,14 @@
+FROM microsoft/dotnet
+
+COPY / /app
+WORKDIR /app
+
+RUN dotnet restore Jobs
+RUN dotnet build Jobs
+
+RUN dotnet restore WebRole
+RUN dotnet build WebRole
+
+WORKDIR /app/WebRole
+
+ENTRYPOINT ["dotnet", "run"]

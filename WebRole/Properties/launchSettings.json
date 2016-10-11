@@ -11,16 +11,17 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "WebRole": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/values",
       "environmentVariables": {
+        "SERVICE_BUS_URL": "<your-bus>.servicebus.windows.net",
+        "SERVICE_BUS_SAK_SHAREDSECRET": "<your-shared-secret>",
+        "SERVICE_BUS_SAK_POLICYNAME": "<your-policy-name>",
+        "SERVICE_BUS_NAME": "<your-nane>",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }

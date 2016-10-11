@@ -1,0 +1,14 @@
+FROM microsoft/dotnet
+
+COPY / /app
+WORKDIR /app
+
+RUN dotnet restore Jobs
+RUN dotnet build Jobs
+
+RUN dotnet restore WorkerRole
+RUN dotnet build WorkerRole
+
+WORKDIR /app/WorkerRole
+
+ENTRYPOINT ["dotnet", "run"]
